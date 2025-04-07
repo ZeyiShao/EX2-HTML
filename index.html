@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crayon Shinchan</title>
+</head>
+<body>
+  
+  <header>
+    <table width="100%">
+      <tr>
+        <td><img src="assets/shin-chan-banner.jpg" alt="Shinchan Banner" width="100%"></td>
+        <td align="center">
+          <img src="assets/naughtiest-son.jpg" alt="Logo" width="200">
+        </td>
+      </tr>
+    </table>
+  </header>
+  
+
+  
+  <nav>
+    <p align="center">
+      <a href="#game">Shinchan: Shiro and the Coal Town Game</a> &nbsp;
+      <a href="#characters">Characters</a> &nbsp;
+      <a href="#favorite">Who's your favorite?</a>
+    </p>
+  </nav>
+
+  
+  <main>
+    <section id="game" align="center">
+      <h2>Shinchan: Shiro and the Coal Town</h2>
+      <p><strong>(Available on: Nintendo Switch and Windows PC)</strong></p>
+      <video width="640" controls>
+        <source src="assets/shinchan-and-the-coal-town.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    
+    <section id="characters">
+      <h2 align="center">The Characters</h2>
+      <table width="100%" align="center">
+        <tr align="center">
+          <td>
+            <h3>Shinnosuke Nohara (Shinchan)</h3>
+            <img src="assets/character-shinchan.png" width="120"><br>
+            The mischievous 5-year-old protagonist known for his hilarious antics and love of choco chips.
+          </td>
+          <td>
+            <h3>Misae Nohara (Mom)</h3>
+            <img src="assets/character-misae.webp" width="120"><br>
+            Shinchan’s short-tempered but loving mother, always trying to keep him in line.
+          </td>
+          <td>
+            <h3>Hiroshi Nohara (Dad)</h3>
+            <img src="assets/character-hiroshi.webp" width="120"><br>
+            The laid-back father who works at a company and enjoys his evening beer.
+          </td>
+        </tr>
+        <tr align="center">
+          <td>
+            <h3>Himawari (Sister)</h3>
+            <img src="assets/character-himawari.png" width="120"><br>
+            Youngest of the Noharas. Loves shiny objects and brand-name goods. Smiles sideways, like Shinchan.
+          </td>
+          <td>
+            <h3>Yukino Nohara (Shiro)</h3>
+            <img src="assets/character-shiro.png" width="120"><br>
+            The family dog — small, fluffy, and sometimes the most sensible member of the household.
+          </td>
+          <td>
+            <h3>Toru Kazama</h3>
+            <img src="assets/character-toru-kazama.webp" width="120"><br>
+            The smart and responsible friend of Shinchan, the voice of reason in the group.
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    
+    <section id="favorite">
+      <h2>Who's your favorite character?</h2>
+      <form>
+        <label>Who's your favorite character?</label>
+        <select name="character">
+          <option>Shinchan</option>
+          <option>Misae</option>
+          <option>Hiroshi</option>
+          <option>Himawari</option>
+          <option>Shiro</option>
+          <option>Kazama</option>
+        </select>
+        <br><br>
+
+        <label>Your other favourite character:</label>
+        <input type="text" name="other-character">
+        <br><br>
+
+        <label>Why do you like this character?</label><br>
+        <textarea rows="4" cols="50" placeholder="State your reasons in a couple of lines..."></textarea>
+        <br><br>
+
+        <h3>Tell us a bit more about yourself</h3>
+
+        <label>Your Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label>Your Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <label>Your Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Your Email:</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  
+  <footer>
+    <p>© 2025 Programming4</p>
+    <p>Get in touch with us: <a href="mailto:shinchan-lovers@justlearninghtml.com">shinchan-lovers@justlearninghtml.com</a></p>
+  </footer>
+</body>
+</html>
